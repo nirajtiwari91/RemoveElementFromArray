@@ -7,6 +7,7 @@ It uses a for loop to find the index of the element to be removed (numToRemove).
 If the element is found, it shifts the subsequent elements to fill the gap.
 The array size is reduced by one using Array.Resize to eliminate the last element.
 The modified array is then displayed.
+
 Using LINQ to Filter Array:
 
 The RemoveFromArray2 method uses the LINQ query Where to filter out the element to be removed (numToRemove).
